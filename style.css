@@ -421,3 +421,14 @@ body > * {
   cursor: pointer;
   font-weight: bold;
 } 
+/* PROJECT RESPONSIVE */
+@media (max-width: 768px) {
+  .project-container {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .project-card {
+    padding: 22px;
+  }
+}  
