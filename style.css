@@ -562,4 +562,39 @@ body > * {
 .project-card .project-btn,
 .project-card button {
     margin-bottom: 18px;
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .project-card p {
+        font-size: 14px;
+    }
+
+    .project-card h3 {
+        font-size: 20px;
+    }
+
+    .project-btn,
+    .project-card button {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
 }
