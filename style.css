@@ -596,5 +596,39 @@ body > * {
     .project-card button {
         font-size: 14px;
         padding: 10px 16px;
+    
+    }
+}
+
+
+    @media (max-width: 768px) {
+    .project-card {
+        padding: 0 !important;
+        margin-bottom: 30px !important;
+    }
+
+    .project-card h3 {
+        font-size: 20px !important;
+        margin: 18px 15px 8px !important;
+    }
+
+    .project-card p {
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+        margin: 0 15px 15px !important;
+    }
+
+    .project-card .project-btn,
+    .project-card button {
+        font-size: 14px !important;
+        padding: 10px 16px !important;
+        margin: 0 15px 18px !important;
+    }
+
+    .project-img {
+        width: 100% !important;
+        height: 180px !important;
+        object-fit: cover !important;
+        margin: 0 !important;
     }
 }
