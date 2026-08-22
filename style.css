@@ -632,3 +632,33 @@ body > * {
         margin: 0 !important;
     }
 }
+footer {
+  text-align: center;
+  padding: 40px 20px 25px;
+  margin-top: 60px;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 8px;
+  display: inline-block;
+}
+
+footer a:hover {
+  color: #2f6df6;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+footer small {
+  display: block;
+  margin-top: 20px;
+  color: #aaa;
+}
