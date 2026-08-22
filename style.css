@@ -722,3 +722,44 @@ footer small {
 .footer {
   text-align: center !important;
 }
+/* FOOTER MOBILE */
+@media (max-width: 600px) {
+  .footer {
+    padding: 30px 15px !important;
+    text-align: center !important;
+  }
+
+  .footer h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .footer p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .footer .wa-button {
+    display: inline-block;
+    margin: 15px auto !important;
+    padding: 10px 18px;
+    border-radius: 8px;
+  }
+
+  .footer .social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 15px 0 !important;
+  }
+
+  .footer .social a {
+    margin: 5px !important;
+  }
+
+  .footer .copyright {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+}
