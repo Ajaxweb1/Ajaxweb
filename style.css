@@ -702,3 +702,23 @@ footer small {
   margin-top: 20px;
   color: #aaa;
 }
+.footer .social a {
+  color: white !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  margin: 5px 8px !important;
+}
+
+.footer .wa-button {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.footer .social {
+  text-align: center !important;
+  margin: 20px 0 !important;
+}
+
+.footer {
+  text-align: center !important;
+}
